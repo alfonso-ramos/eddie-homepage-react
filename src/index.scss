@@ -1,6 +1,5 @@
-/* :root {
-  /* Agrega las fuentes aqui
-} */
+@import './styles/vars';
+
 html{
   box-sizing: border-box;
   margin: 0;
@@ -16,13 +15,11 @@ body{
   line-height: 2rem;
 }
 /* Globales */
-.container{
-  max-width: 120rem;
-  width: 90%;
-  margin: 0 auto;
-}
 a{
   text-decoration: none;
+}
+p{
+  margin: 0;
 }
 img{
   max-width: 100%;

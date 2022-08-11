@@ -1,0 +1,11 @@
+@import '../vars';
+
+.FooterMenu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.4rem;
+    a {
+        margin-bottom: 2rem;
+        color: white;
+    }
+}

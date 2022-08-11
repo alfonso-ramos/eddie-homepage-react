@@ -1,0 +1,14 @@
+@import '../vars';
+
+.FooterSocialMedia{
+    margin-bottom: 6.4rem;
+    p{
+        color: $light-gray;
+        font-size: 3.6rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+    .social-media-container a{
+        margin-right: 1rem;
+    }
+}
