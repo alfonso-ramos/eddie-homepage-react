@@ -1,0 +1,30 @@
+/* :root {
+  /* Agrega las fuentes aqui
+} */
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+/* Globales */
+.container{
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* Utilities */
