@@ -1,0 +1,24 @@
+@import '../vars';
+
+.CostumerInfo{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    .costumer-image img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 1.2rem;
+    }
+    .costumer-text{
+        font-weight: 500;
+        .costumer-name{
+            font-size: 2.4rem;
+            margin-bottom: 1.2rem;
+        }
+        .costumer-project{
+            font-size: 1.8rem;
+            color: $soft-gray;
+        }
+    }
+
+}
